@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.returnordermanag.packageDeliveryModule.PackagingAndDeliveryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.066 s - in com.returnordermanag.packageDeliveryModule.PackagingAndDeliveryApplicationTests
