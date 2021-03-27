@@ -1,0 +1,6 @@
+com\returnordermanag\webPortal\model\ProcessRequestTest.class
+com\returnordermanag\webPortal\model\UserDetailsTest.class
+com\returnordermanag\webPortal\model\AuthenticationRequestTest.class
+com\returnordermanag\webPortal\ReturnOrderPortalApplicationTests.class
+com\returnordermanag\webPortal\model\AuthenticationResponseTest.class
+com\returnordermanag\webPortal\model\ProcessResponseTest.class

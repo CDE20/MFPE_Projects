@@ -1,0 +1,14 @@
+com\returnordermanag\webPortal\model\UserDetails.class
+com\returnordermanag\webPortal\model\ProcessResponse.class
+com\returnordermanag\webPortal\service\LoginService.class
+com\returnordermanag\webPortal\client\AuthenticationFeignClient.class
+com\returnordermanag\webPortal\dao\UserAuthenticationRepository.class
+com\returnordermanag\webPortal\dao\ProcessRequestRepository.class
+com\returnordermanag\webPortal\model\ProcessRequest.class
+com\returnordermanag\webPortal\controller\HomeController.class
+com\returnordermanag\webPortal\model\AuthenticationResponse.class
+com\returnordermanag\webPortal\dao\ProcessReponseRepository.class
+com\returnordermanag\webPortal\ReturnOrderPortalApplication.class
+com\returnordermanag\webPortal\model\AuthenticationRequest.class
+com\returnordermanag\webPortal\client\ComponentProcessingFeignClient.class
+com\returnordermanag\webPortal\controller\ProcessController.class

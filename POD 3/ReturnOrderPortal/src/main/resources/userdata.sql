@@ -1,0 +1,1 @@
+insert into MYUSER values  (1,'Mrunal','Mrunal'), (2,'Abhishek','Abhishek'), (3,'Harivivek','Harivivek'), (4,'Satyam','Satyam');
