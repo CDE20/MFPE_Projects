@@ -1,0 +1,2 @@
+insert into CREDIT_CARD values (1234567812345678,5500);
+insert into CREDIT_CARD values (5678123456781234,2000);
