@@ -1,0 +1,32 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+      docker: 18
+  pre_build:
+    commands:
+      - echo "Pre_build"
+      - echo "Logging in to Amazon ECR"
+      - $(aws ecr get-login  --no-include-email --region us-east-2)
+  build:
+    commands:
+      - echo "Build"
+      - echo "Entered build phase"
+      - echo "Building Java"
+      - cd  authorization-service
+      - mvn -DskipTests clean package
+      - docker build -t pod3-authorization-service-registry:latest .
+      - docker tag pod3-authorization-service-registry:latest 430321133782.dkr.ecr.us-east-2.amazonaws.com/pod3-authorization-service-registry:pod3-authorization-service-registry
+
+  post_build:
+    commands:
+      - echo "Post_build"
+      - docker push 430321133782.dkr.ecr.us-east-2.amazonaws.com/pod3-authorization-service-registry:pod3-authorization-service-registry
+      - printf '[{"name":"pod3-authorization-service-container","imageUri":"%s"}]' 430321133782.dkr.ecr.us-east-2.amazonaws.com/pod3-authorization-service-registry:pod3-authorization-service-registry > taskdefinition.json
+      - cat taskdefinition.json
+
+artifacts:
+  files:
+    - authorization-service/taskdefinition.json
