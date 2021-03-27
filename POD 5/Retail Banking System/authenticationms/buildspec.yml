@@ -1,0 +1,27 @@
+version: 0.2
+phases:
+   install:
+      runtime-versions:
+         docker: 18
+   pre_build:
+      commands:
+      - echo "Entered the pre-build phase"
+      - $(aws ecr get-login  --no-include-email --region $AWS_REGION)
+   build:
+      commands:
+      - echo "Entered build phase"
+      - cd Authentication-MS
+      - mvn compile
+      - mvn package
+      - mvn -DskipTests clean package
+      - echo " building docker image"
+      - docker build -t service/auth-app .
+      - docker tag service/auth-app 690236230744.dkr.ecr.us-east-2.amazonaws.com/retailbank-auth-repo:auth-app
+   post_build:
+      commands:
+      - echo "Entered the post-build phase"
+      - docker push 690236230744.dkr.ecr.us-east-2.amazonaws.com/retailbank-auth-repo:auth-app
+      - printf '[{"name":"authentication-container","imageUri":"%s"}]' 690236230744.dkr.ecr.us-east-2.amazonaws.com/retailbank-auth-repo:auth-app
+artifacts:
+   files:
+   - Authentication-MS/taskdefinition.json
