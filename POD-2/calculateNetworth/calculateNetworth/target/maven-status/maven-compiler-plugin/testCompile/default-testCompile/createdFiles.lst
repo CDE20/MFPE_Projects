@@ -1,0 +1,9 @@
+com\cognizant\calculateNetworth\model\SellObjectMapTest.class
+com\cognizant\calculateNetworth\model\PortfolioTest.class
+com\cognizant\calculateNetworth\CalculateNetworthApplicationTests.class
+com\cognizant\calculateNetworth\model\AssetTest.class
+com\cognizant\calculateNetworth\model\MutualFundDetailsTest.class
+com\cognizant\calculateNetworth\model\AuthResponseTest.class
+com\cognizant\calculateNetworth\service\SellAssetServiceTest.class
+com\cognizant\calculateNetworth\model\SellObjectTest.class
+com\cognizant\calculateNetworth\model\StockDetailsTest.class
