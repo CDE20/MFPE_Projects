@@ -1,0 +1,3 @@
+com\cognizant\authorizationService\service\AdminDetailsServiceTest.class
+com\cognizant\authorizationService\controller\AuthControllerTest.class
+com\cognizant\authorizationService\service\JwUtilTest.class

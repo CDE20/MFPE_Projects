@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.microservices.discoveryservice.DiscoveryServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.813 s <<< FAILURE! - in com.example.microservices.discoveryservice.DiscoveryServiceApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/sun/jersey/client/apache4/ApacheHttpClient4
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/sun/jersey/client/apache4/ApacheHttpClient4
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/sun/jersey/client/apache4/ApacheHttpClient4
+Caused by: java.lang.NoClassDefFoundError: com/sun/jersey/client/apache4/ApacheHttpClient4
+Caused by: java.lang.ClassNotFoundException: com.sun.jersey.client.apache4.ApacheHttpClient4
+
