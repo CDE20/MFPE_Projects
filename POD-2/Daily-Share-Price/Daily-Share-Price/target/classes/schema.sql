@@ -1,0 +1,1 @@
+Create table share_details (share_id varchar(5) primary key,share_name varchar(20),share_value DOUBLE);
