@@ -1,0 +1,10 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://www.pharmacy.biz/wp-content/uploads/sites/1/2019/11/iStock-1138197108-1.jpg');
+  background-size: cover;
+  background-position: center center;
+}

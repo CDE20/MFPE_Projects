@@ -1,0 +1,10 @@
+com\cognizant\portfoliomanagement\WebPortal\ServletInitializer.class
+com\cognizant\portfoliomanagement\WebPortal\Controller\WebPortalController.class
+com\cognizant\portfoliomanagement\WebPortal\Model\UserData.class
+com\cognizant\portfoliomanagement\WebPortal\FeignClient\CalculateNetworthFeignClient.class
+com\cognizant\portfoliomanagement\WebPortal\service\WebportalService.class
+com\cognizant\portfoliomanagement\WebPortal\WebPortalApplication.class
+com\cognizant\portfoliomanagement\WebPortal\FeignClient\AuthClient.class
+com\cognizant\portfoliomanagement\WebPortal\Model\AuthResponse.class
+com\cognizant\portfoliomanagement\WebPortal\Model\SellObjectMap.class
+com\cognizant\portfoliomanagement\WebPortal\Model\Asset.class

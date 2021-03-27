@@ -1,0 +1,17 @@
+server:
+  port: 9093
+
+
+eureka:
+  instance:
+    appname: documentation-application
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ec2-13-126-208-208.ap-south-1.compute.amazonaws.com
+
+swagger:
+  config:
+    refreshrate: 5000

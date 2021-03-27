@@ -1,0 +1,5 @@
+com\cognizant\portfoliomanagement\WebPortal\Model\AssetTest.class
+com\cognizant\portfoliomanagement\WebPortal\Model\AuthResponseTest.class
+com\cognizant\portfoliomanagement\WebPortal\Model\SellObjectMapTest.class
+com\cognizant\portfoliomanagement\WebPortal\WebPortalApplicationTest.class
+com\cognizant\portfoliomanagement\WebPortal\Model\UserDataTest.class

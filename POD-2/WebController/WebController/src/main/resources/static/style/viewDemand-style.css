@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+ body{
+    background-color: #30c1ec;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+   }
+
+.card{
+    border-radius: 0;
+    background: white;
+    border:1;
+}
+
+.name{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    color:whitesmoke;
+    padding-left: 20px;
+}
+.odd{
+    background-color: white;
+
+
+}
+.even{
+    background-color: #bf77f0;
+}
+.submit-btn{
+    float: right;
+
+    
+}

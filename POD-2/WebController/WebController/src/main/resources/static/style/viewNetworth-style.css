@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+ body{
+    background-color: rgb(63, 154, 228);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+   }

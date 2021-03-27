@@ -1,0 +1,5 @@
+com\cognizant\swaggerdocumentation\config\ServiceDefinitionsContext.class
+com\cognizant\swaggerdocumentation\controller\DocumentDefinitionController.class
+com\cognizant\swaggerdocumentation\config\ServiceDescriptionUpdater.class
+com\cognizant\swaggerdocumentation\config\SwaggerUIConfiguration.class
+com\cognizant\swaggerdocumentation\SwaggerDocumentationApplication.class
