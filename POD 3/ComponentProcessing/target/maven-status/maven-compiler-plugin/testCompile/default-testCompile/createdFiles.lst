@@ -1,0 +1,7 @@
+com\returnordermanag\componentProcessModule\model\ProcessResponseTest.class
+com\returnordermanag\componentProcessModule\service\PaymentServiceTest.class
+com\returnordermanag\componentProcessModule\model\PaymentTest.class
+com\returnordermanag\componentProcessModule\model\ProcessRequestTest.class
+com\returnordermanag\componentProcessModule\controller\ComponentProcessingControllerTest.class
+com\returnordermanag\componentProcessModule\model\AuthenticationResponseTest.class
+com\returnordermanag\componentProcessModule\ComponentProcessingMicroserviceApplicationTests.class

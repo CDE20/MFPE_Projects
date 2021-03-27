@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.returnordermanag.componentProcessModule.ComponentProcessingMicroserviceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.893 s - in com.returnordermanag.componentProcessModule.ComponentProcessingMicroserviceApplicationTests
