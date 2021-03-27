@@ -1,0 +1,8 @@
+com\cognizant\authorizationService\service\AdminDetailsService.class
+com\cognizant\authorizationService\model\AuthResponse.class
+com\cognizant\authorizationService\repository\UserRepository.class
+com\cognizant\authorizationService\model\UserData.class
+com\cognizant\authorizationService\SecurityConfigurer.class
+com\cognizant\authorizationService\AuthorizationServiceApplication.class
+com\cognizant\authorizationService\service\JwtUtil.class
+com\cognizant\authorizationService\controller\AuthController.class
