@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="f" uri="http://www.springframework.org/tags/form"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pharmacy Medicine Supply Portal</title>
+<link rel="icon" type="image/ico" href="./images/pharmacy.png" />
+<link rel="stylesheet" type="text/css" href="/style/style.css">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+.logo {
+	margin-top: 6px;
+	margin-bottom: 7px;
+	width: 3em;
+	height: 3em;
+	margin-left: 20px;
+}
+
+.heading {
+	color: #343b44;
+	font-size: 2.0em;
+	font-weight: 800;
+	text-align: left;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+#logout {
+	display: inline;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+</style>
+
+</head>
+<body
+	style="background-image: url('https://images.unsplash.com/photo-1587370560942-ad2a04eabb6d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+
+	<div class="">
+		<div class="row" style="background-color: #bfbfbf;">
+
+				<a href="/user/home"><img src="/images/pharmacy.png" class="logo" alt="pharmacy logo" ></img></a>
+
+			
+				<span class="heading">Cognizant Pharmaceuticals </span>
+
+
+				<a class="btn btn-danger" id="logout" href="/user/logout">Logout</a>
+
+		</div>
+
+		<div>
+			<nav class="navbar navbar-light bg-dark">
+				<a class="nav-link btn btn-dark ml-5" href="/user/schedule">MR
+					Schedule</a> <a class="nav-link btn btn-dark"
+					href="/user/medicineDemand">Place Order</a> <a
+					class="nav-link btn btn-dark" href="/user/medicineStock">Check
+					Stock</a> <a class="nav-link btn btn-dark"
+					href="/user/showMedicineSupply">Placed Orders</a> <a
+					class="nav-link btn btn-dark mr-5" href="/user/showMedicineDemand">Demand</a>
+			</nav>
+		</div>
+	</div>
